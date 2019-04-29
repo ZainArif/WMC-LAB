@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">wmc</string>
+    <string name="username">"Username"</string>
+    <string name="email">"Email"</string>
+    <string name="psw">"Password"</string>
+    <string name="save">"Save"</string>
+    <string name="iemail">"Invalid email address"</string>
+    <string name="uc">"User created"</string>
+    <string name="uae">"User already exist"</string>
+    <string name="sww">"Something went wrong!"</string>
+    <string name="cu">"Create User"</string>
+    <string name="au">"All Users"</string>
+    <string name="ff">"Fill out the form"</string>
+    <string name="del">"Delete"</string>
+    <string name="edit">"Edit</string>
+    <string name="udeleted">"User Deleted"</string>
+    <string name="uupdated">"User Updated"</string>
+    <string name="upuser">"Update User</string>
+    <string name="update">"Update"</string>
+</resources>

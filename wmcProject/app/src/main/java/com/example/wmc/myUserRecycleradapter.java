@@ -95,4 +95,9 @@ public class myUserRecycleradapter extends RecyclerView.Adapter<myUserViewHolder
         return userDataArrayList.size();
     }
 
+    public void updateUsers(ArrayList<userData> userDataArrayList){
+        this.userDataArrayList = new ArrayList<>();
+        this.userDataArrayList.addAll(userDataArrayList);
+        notifyDataSetChanged();
+    }
 }

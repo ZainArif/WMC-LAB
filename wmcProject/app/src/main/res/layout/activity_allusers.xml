@@ -4,24 +4,20 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:layout_margin="10dp"
     tools:context=".allusers">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/au"
-        android:textSize="17sp"
-        android:textAllCaps="true"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:textColor="@color/colorPrimaryDark"
-        android:layout_margin="20dp"/>
+    <include layout="@layout/toolbar_layout" />
+
+
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/myRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:scrollbars="vertical">
     </android.support.v7.widget.RecyclerView>
 
